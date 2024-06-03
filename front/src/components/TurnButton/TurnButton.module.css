@@ -1,0 +1,14 @@
+.button {
+  font-family: "Comfortaa", sans-serif;
+  height: auto;
+  width: auto;
+  padding: 1.5vh 0.5vw;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #007bff;
+}

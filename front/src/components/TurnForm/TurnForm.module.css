@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 18vh;
+  align-items: center;
+  color: white;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario input {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+
+.formulario button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-top: 19px;
+  color: white;
+  cursor: pointer;
+  background-color: #0056b3;
+}
+
+.formulario button:hover {
+  background-color: #007bff;
+}
+
+@media (max-width: 780px) {
+  .container {
+    padding-top: 21vh;
+  }
+}

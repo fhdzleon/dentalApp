@@ -1,0 +1,17 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 8%;
+}
+
+.contenedor h2 {
+  color: white;
+}
+
+@media (max-width: 780px) {
+  .contenedor {
+    padding-top: 21vh;
+  }
+}

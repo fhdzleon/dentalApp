@@ -1,0 +1,43 @@
+.contenedorAside {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  height: 45px;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(85, 81, 81, 0.5);
+}
+
+.contenedorTop {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(85, 81, 81, 0.5);
+}
+
+.contenedorAside p {
+  color: white;
+  font-family: monospace;
+  font-size: medium;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contenedorTop p {
+  color: white;
+  font-family: monospace;
+  font-size: medium;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 780px) {
+  .contenedorAside {
+    width: 100%;
+  }
+}

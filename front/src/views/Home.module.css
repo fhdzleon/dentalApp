@@ -1,0 +1,17 @@
+.titulo {
+  padding-top: 10%;
+  margin: 0;
+  margin-left: 40px;
+  color: white;
+}
+
+.subtitulo {
+  margin-left: 40px;
+  color: white;
+}
+
+@media (max-width: 780px) {
+  .titulo {
+    padding-top: 220px;
+  }
+}
